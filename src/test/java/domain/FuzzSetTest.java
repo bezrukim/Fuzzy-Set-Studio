@@ -1,6 +1,8 @@
-package domain;
+package test.java.domain;
 
 import org.junit.jupiter.api.Test;
+import main.java.com.fuzzysetstudio.domain.FuzzySet;
+import main.java.com.fuzzysetstudio.domain.Point;
 
 import java.util.List;
 
@@ -10,7 +12,7 @@ class FuzzSetTest {
 
     @Test
     void getFuzzSetPoints() {
-        FuzzSet testFuzzSet = new FuzzSet(new Point(0, 1),
+        FuzzySet testFuzzSet = new FuzzySet(new Point(0, 1),
                 new Point(-1, 0),
                 new Point(2, 0),
                 new Point(1, 1)
@@ -23,12 +25,12 @@ class FuzzSetTest {
                 new Point(2, 0)
         );
 
-        assertEquals(exceptedFuzzSet, testFuzzSet.getFuzzSetPoints());
+        assertEquals(exceptedFuzzSet, testFuzzSet.getFuzzySetPoints());
     }
 
     @Test
     void setFuzzSetPoints() {
-        FuzzSet testFuzzSet = new FuzzSet(new Point(0, 0), new Point(1, 1));
+        FuzzySet testFuzzSet = new FuzzySet(new Point(0, 0), new Point(1, 1));
         testFuzzSet.setFuzzSetPoints(
                 new Point(0, 1),
                 new Point(-1, 0),
@@ -43,12 +45,12 @@ class FuzzSetTest {
                 new Point(2, 0)
         );
 
-        assertEquals(exceptedFuzzSet, testFuzzSet.getFuzzSetPoints());
+        assertEquals(exceptedFuzzSet, testFuzzSet.getFuzzySetPoints());
     }
 
     @Test
     void putPoint() {
-        FuzzSet testFuzzSet = new FuzzSet(
+        FuzzySet testFuzzSet = new FuzzySet(
                 new Point(0, 1),
                 new Point(2, 0),
                 new Point(1, 1)
@@ -63,12 +65,12 @@ class FuzzSetTest {
                 new Point(2, 0)
         );
 
-        assertEquals(exceptedFuzzSet, testFuzzSet.getFuzzSetPoints());
+        assertEquals(exceptedFuzzSet, testFuzzSet.getFuzzySetPoints());
     }
 
     @Test
     void putPoints() {
-        FuzzSet testFuzzSet = new FuzzSet(new Point(-1, 0));
+        FuzzySet testFuzzSet = new FuzzySet(new Point(-1, 0));
 
         testFuzzSet.putPoints(new Point(0, 1),
                 new Point(2, 0),
@@ -82,15 +84,15 @@ class FuzzSetTest {
                 new Point(2, 0)
         );
 
-        assertEquals(exceptedFuzzSet, testFuzzSet.getFuzzSetPoints());
+        assertEquals(exceptedFuzzSet, testFuzzSet.getFuzzySetPoints());
     }
 
     @Test
     void testEquals() {
-        FuzzSet testFuzzSet1 = new FuzzSet(new Point(-1, 0), new Point(-1, 1), new Point(1, 1));
-        FuzzSet testFuzzSet2 = new FuzzSet(new Point(-1, 1), new Point(-1, 0), new Point(1, 1));
-        FuzzSet testFuzzSet3 = new FuzzSet(new Point(-1, 0), new Point(0, 0), new Point(1, 2));
-        FuzzSet testFuzzSet4 = new FuzzSet(new Point(-1, 0), new Point(0, 0));
+        FuzzySet testFuzzSet1 = new FuzzySet(new Point(-1, 0), new Point(-1, 1), new Point(1, 1));
+        FuzzySet testFuzzSet2 = new FuzzySet(new Point(-1, 1), new Point(-1, 0), new Point(1, 1));
+        FuzzySet testFuzzSet3 = new FuzzySet(new Point(-1, 0), new Point(0, 0), new Point(1, 2));
+        FuzzySet testFuzzSet4 = new FuzzySet(new Point(-1, 0), new Point(0, 0));
 
         assertEquals(testFuzzSet1, testFuzzSet2);
         assertNotEquals(testFuzzSet2, testFuzzSet3);
@@ -99,15 +101,23 @@ class FuzzSetTest {
 
     @Test
     void membershipFunction() {
-        FuzzSet testFuzzSet = new FuzzSet(
+        FuzzySet testFuzzSet = new FuzzySet(
                 new Point(0, 1),
                 new Point(-1, 0),
                 new Point(2, 0),
                 new Point(1, 1)
         );
 
-        Point actual = testFuzzSet.membershipFunction(0);
-        assertEquals(new Point(0, 1), actual);
+        Double actual1 = testFuzzSet.membershipFunction(0);
+        assertEquals(1, actual1);
 
+        Double actual2 = testFuzzSet.membershipFunction(0.5);
+        assertEquals(1, actual2);
+
+        Double actual3 = testFuzzSet.membershipFunction(-0.5);
+        assertEquals(0.5, actual3);
+
+        Double actual4 = testFuzzSet.membershipFunction(-2);
+        assertEquals(0, actual4);
     }
 }

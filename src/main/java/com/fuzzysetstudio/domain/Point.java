@@ -1,4 +1,4 @@
-package domain;
+package main.java.com.fuzzysetstudio.domain;
 
 import org.jetbrains.annotations.NotNull;
 

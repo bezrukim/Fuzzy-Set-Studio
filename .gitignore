@@ -37,3 +37,19 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+.postman
+postman
+.mvn
+.idea
+node_modules
+
+
+# ==============================
+# Frontend / Node.js
+# ==============================
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/coverage/
+frontend/.eslintcache

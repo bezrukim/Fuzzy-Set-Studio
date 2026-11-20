@@ -1,9 +1,7 @@
-package domain;
+package test.java.domain;
 
 import org.junit.jupiter.api.Test;
-
-import java.util.ArrayList;
-import java.util.List;
+import main.java.com.fuzzysetstudio.domain.Point;
 
 import static org.junit.jupiter.api.Assertions.*;
 
