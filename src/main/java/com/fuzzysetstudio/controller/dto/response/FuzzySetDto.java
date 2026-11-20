@@ -1,4 +1,4 @@
-package main.java.com.fuzzysetstudio.controller.dto.response;
+package com.fuzzysetstudio.controller.dto.response;
 
 import javax.validation.Valid;
 import javax.validation.constraints.NotEmpty;

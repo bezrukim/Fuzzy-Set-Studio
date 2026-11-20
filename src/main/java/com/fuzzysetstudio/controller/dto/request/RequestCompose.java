@@ -1,6 +1,6 @@
-package main.java.com.fuzzysetstudio.controller.dto.request;
+package com.fuzzysetstudio.controller.dto.request;
 
-import main.java.com.fuzzysetstudio.controller.dto.response.FuzzyRelationDto;
+import com.fuzzysetstudio.controller.dto.response.FuzzyRelationDto;
 
 import javax.validation.Valid;
 import javax.validation.constraints.NotEmpty;

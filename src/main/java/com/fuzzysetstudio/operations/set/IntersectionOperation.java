@@ -1,8 +1,8 @@
-package main.java.com.fuzzysetstudio.operations.set;
+package com.fuzzysetstudio.operations.set;
 
 import org.springframework.stereotype.Component;
-import main.java.com.fuzzysetstudio.domain.FuzzySet;
-import main.java.com.fuzzysetstudio.domain.Point;
+import com.fuzzysetstudio.domain.FuzzySet;
+import com.fuzzysetstudio.domain.Point;
 
 import java.util.ArrayList;
 

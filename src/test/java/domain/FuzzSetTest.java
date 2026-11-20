@@ -1,8 +1,8 @@
-package test.java.domain;
+package domain;
 
 import org.junit.jupiter.api.Test;
-import main.java.com.fuzzysetstudio.domain.FuzzySet;
-import main.java.com.fuzzysetstudio.domain.Point;
+import com.fuzzysetstudio.domain.FuzzySet;
+import com.fuzzysetstudio.domain.Point;
 
 import java.util.List;
 

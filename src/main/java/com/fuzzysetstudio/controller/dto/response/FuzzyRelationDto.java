@@ -1,4 +1,4 @@
-package main.java.com.fuzzysetstudio.controller.dto.response;
+package com.fuzzysetstudio.controller.dto.response;
 
 import org.jetbrains.annotations.NotNull;
 

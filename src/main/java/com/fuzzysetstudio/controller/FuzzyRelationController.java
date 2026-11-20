@@ -1,14 +1,14 @@
-package main.java.com.fuzzysetstudio.controller;
+package com.fuzzysetstudio.controller;
 
-import main.java.com.fuzzysetstudio.controller.dto.FuzzyRelationMapper;
-import main.java.com.fuzzysetstudio.controller.dto.FuzzySetMapper;
-import main.java.com.fuzzysetstudio.controller.dto.request.RequestCompose;
-import main.java.com.fuzzysetstudio.controller.dto.request.RequestRelationsImage;
-import main.java.com.fuzzysetstudio.controller.dto.response.FuzzyRelationDto;
-import main.java.com.fuzzysetstudio.controller.dto.response.FuzzySetDto;
-import main.java.com.fuzzysetstudio.domain.FuzzyRelation;
-import main.java.com.fuzzysetstudio.domain.FuzzySet;
-import main.java.com.fuzzysetstudio.service.FuzzyRelationService;
+import com.fuzzysetstudio.controller.dto.FuzzyRelationMapper;
+import com.fuzzysetstudio.controller.dto.FuzzySetMapper;
+import com.fuzzysetstudio.controller.dto.request.RequestCompose;
+import com.fuzzysetstudio.controller.dto.request.RequestRelationsImage;
+import com.fuzzysetstudio.controller.dto.response.FuzzyRelationDto;
+import com.fuzzysetstudio.controller.dto.response.FuzzySetDto;
+import com.fuzzysetstudio.domain.FuzzyRelation;
+import com.fuzzysetstudio.domain.FuzzySet;
+import com.fuzzysetstudio.service.FuzzyRelationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

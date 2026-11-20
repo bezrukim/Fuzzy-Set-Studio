@@ -1,7 +1,6 @@
-package main.java.com.fuzzysetstudio.domain;
+package com.fuzzysetstudio.domain;
 
 import java.util.ArrayList;
-import java.util.stream.Collectors;
 
 public class FuzzyRelation {
     private final double[] X;

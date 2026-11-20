@@ -1,9 +1,9 @@
-package main.java.com.fuzzysetstudio.controller.dto;
+package com.fuzzysetstudio.controller.dto;
 
-import main.java.com.fuzzysetstudio.controller.dto.response.FuzzySetDto;
-import main.java.com.fuzzysetstudio.controller.dto.response.PointDto;
-import main.java.com.fuzzysetstudio.domain.FuzzySet;
-import main.java.com.fuzzysetstudio.domain.Point;
+import com.fuzzysetstudio.controller.dto.response.FuzzySetDto;
+import com.fuzzysetstudio.controller.dto.response.PointDto;
+import com.fuzzysetstudio.domain.FuzzySet;
+import com.fuzzysetstudio.domain.Point;
 import org.jetbrains.annotations.NotNull;
 
 import javax.validation.Valid;

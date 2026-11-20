@@ -1,4 +1,4 @@
-package main.java.com.fuzzysetstudio.operations.set;
+package com.fuzzysetstudio.operations.set;
 
 public enum FuzzySetOperationType{
     UNION,

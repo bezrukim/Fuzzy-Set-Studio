@@ -1,11 +1,11 @@
-package main.java.com.fuzzysetstudio.service;
+package com.fuzzysetstudio.service;
 
 import org.springframework.stereotype.Service;
-import main.java.com.fuzzysetstudio.domain.FuzzySet;
-import main.java.com.fuzzysetstudio.operations.set.IFuzzySetBinaryOperation;
-import main.java.com.fuzzysetstudio.operations.set.IFuzzySetOperation;
-import main.java.com.fuzzysetstudio.operations.set.FuzzySetOperationType;
-import main.java.com.fuzzysetstudio.operations.set.IFuzzySetUnaryOperation;
+import com.fuzzysetstudio.domain.FuzzySet;
+import com.fuzzysetstudio.operations.set.IFuzzySetBinaryOperation;
+import com.fuzzysetstudio.operations.set.IFuzzySetOperation;
+import com.fuzzysetstudio.operations.set.FuzzySetOperationType;
+import com.fuzzysetstudio.operations.set.IFuzzySetUnaryOperation;
 
 import java.util.List;
 import java.util.Map;

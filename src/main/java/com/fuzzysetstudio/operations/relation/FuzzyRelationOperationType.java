@@ -1,4 +1,4 @@
-package main.java.com.fuzzysetstudio.operations.relation;
+package com.fuzzysetstudio.operations.relation;
 
 public enum FuzzyRelationOperationType {
     SUB_PREIMAGE,

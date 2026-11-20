@@ -1,10 +1,8 @@
 package com.fuzzysetstudio.operations.set;
 
-import main.java.com.fuzzysetstudio.operations.set.IFuzzySetUnaryOperation;
-import main.java.com.fuzzysetstudio.operations.set.NegationOperation;
 import org.junit.jupiter.api.Test;
-import main.java.com.fuzzysetstudio.domain.FuzzySet;
-import main.java.com.fuzzysetstudio.domain.Point;
+import com.fuzzysetstudio.domain.FuzzySet;
+import com.fuzzysetstudio.domain.Point;
 
 import static org.junit.jupiter.api.Assertions.*;
 

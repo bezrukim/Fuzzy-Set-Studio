@@ -1,17 +1,17 @@
-package main.java.com.fuzzysetstudio.controller;
+package com.fuzzysetstudio.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import main.java.com.fuzzysetstudio.controller.dto.request.RequestOperationDto;
-import main.java.com.fuzzysetstudio.controller.dto.response.FuzzySetDto;
-import main.java.com.fuzzysetstudio.domain.FuzzySet;
-import main.java.com.fuzzysetstudio.service.FuzzySetService;
+import com.fuzzysetstudio.controller.dto.request.RequestOperationDto;
+import com.fuzzysetstudio.controller.dto.response.FuzzySetDto;
+import com.fuzzysetstudio.domain.FuzzySet;
+import com.fuzzysetstudio.service.FuzzySetService;
 
 import javax.validation.Valid;
 
 import static java.util.Objects.isNull;
-import static main.java.com.fuzzysetstudio.controller.dto.FuzzySetMapper.toDomain;
-import static main.java.com.fuzzysetstudio.controller.dto.FuzzySetMapper.toDto;
+import static com.fuzzysetstudio.controller.dto.FuzzySetMapper.toDomain;
+import static com.fuzzysetstudio.controller.dto.FuzzySetMapper.toDto;
 
 @RestController
 @CrossOrigin("http://localhost:5173")

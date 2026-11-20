@@ -1,7 +1,6 @@
-package main.java.com.fuzzysetstudio.operations.relation;
+package com.fuzzysetstudio.operations.relation;
 
-import main.java.com.fuzzysetstudio.domain.FuzzyRelation;
-import main.java.com.fuzzysetstudio.domain.FuzzySet;
+import com.fuzzysetstudio.domain.FuzzyRelation;
 
 import java.util.List;
 

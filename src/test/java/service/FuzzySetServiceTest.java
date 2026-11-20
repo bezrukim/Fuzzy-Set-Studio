@@ -5,12 +5,12 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Spy;
 import org.mockito.junit.jupiter.MockitoExtension;
-import main.java.com.fuzzysetstudio.domain.FuzzySet;
-import main.java.com.fuzzysetstudio.domain.Point;
-import main.java.com.fuzzysetstudio.operations.set.IFuzzySetOperation;
-import main.java.com.fuzzysetstudio.operations.set.FuzzySetOperationType;
-import main.java.com.fuzzysetstudio.operations.set.NegationOperation;
-import main.java.com.fuzzysetstudio.service.FuzzySetService;
+import com.fuzzysetstudio.domain.FuzzySet;
+import com.fuzzysetstudio.domain.Point;
+import com.fuzzysetstudio.operations.set.IFuzzySetOperation;
+import com.fuzzysetstudio.operations.set.FuzzySetOperationType;
+import com.fuzzysetstudio.operations.set.NegationOperation;
+import com.fuzzysetstudio.service.FuzzySetService;
 
 import java.util.List;
 

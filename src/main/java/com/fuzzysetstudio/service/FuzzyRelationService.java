@@ -1,11 +1,11 @@
-package main.java.com.fuzzysetstudio.service;
+package com.fuzzysetstudio.service;
 
-import main.java.com.fuzzysetstudio.domain.FuzzyRelation;
-import main.java.com.fuzzysetstudio.domain.FuzzySet;
-import main.java.com.fuzzysetstudio.operations.relation.ComposeOperation;
-import main.java.com.fuzzysetstudio.operations.relation.FuzzyRelationOperationType;
-import main.java.com.fuzzysetstudio.operations.relation.IFuzzyRelationBinaryOperation;
-import main.java.com.fuzzysetstudio.operations.relation.IFuzzyRelationOperation;
+import com.fuzzysetstudio.domain.FuzzyRelation;
+import com.fuzzysetstudio.domain.FuzzySet;
+import com.fuzzysetstudio.operations.relation.ComposeOperation;
+import com.fuzzysetstudio.operations.relation.FuzzyRelationOperationType;
+import com.fuzzysetstudio.operations.relation.IFuzzyRelationBinaryOperation;
+import com.fuzzysetstudio.operations.relation.IFuzzyRelationOperation;
 
 import org.springframework.stereotype.Service;
 

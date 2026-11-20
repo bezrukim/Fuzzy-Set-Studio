@@ -1,14 +1,9 @@
-package main.java.com.fuzzysetstudio.controller.dto;
+package com.fuzzysetstudio.controller.dto;
 
-import main.java.com.fuzzysetstudio.controller.dto.response.FuzzyRelationDto;
-import main.java.com.fuzzysetstudio.controller.dto.response.FuzzySetDto;
-import main.java.com.fuzzysetstudio.controller.dto.response.PointDto;
-import main.java.com.fuzzysetstudio.domain.FuzzyRelation;
-import main.java.com.fuzzysetstudio.domain.FuzzySet;
-import main.java.com.fuzzysetstudio.domain.Point;
+import com.fuzzysetstudio.controller.dto.response.FuzzyRelationDto;
+import com.fuzzysetstudio.domain.FuzzyRelation;
 
 import javax.validation.Valid;
-import java.sql.Array;
 import java.util.Arrays;
 import java.util.List;
 
